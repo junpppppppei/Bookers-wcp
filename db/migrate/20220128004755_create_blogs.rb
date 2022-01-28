@@ -1,5 +1,5 @@
 class CreateBooks < ActiveRecord::Migration[5.2]
-  def change
+  def changerail
     create_table :books do |t|
       t.string :title
       t.text :body
